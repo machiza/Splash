@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            android:background="#fff"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtCantor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duas Caras ft Bander"
+                android:layout_above="@id/txtTitulo" />
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quem me dera"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDuracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03:57"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

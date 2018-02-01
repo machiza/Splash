@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/placeholder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mz.co.malambe.splash.User_Interface"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/dp_user_interface">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="#0F0F0F"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Musicas"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_sound_black"
+            android:drawablePadding="-20dp"
+            android:backgroundTint="#fff"
+            android:padding="18.5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Albm's"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_album_black"
+            android:drawablePadding="-20dp"
+            android:backgroundTint="#fff"
+            android:padding="18.5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_video_library_black_24dp"
+            android:drawablePadding="-20dp"
+            android:backgroundTint="#fff"
+            android:padding="18.5dp"/>
+
+        <Button
+            android:id="@+id/btnTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top 10"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_top100_black"
+            android:drawablePadding="-20dp"
+            android:backgroundTint="#fff"
+            android:padding="18.5dp"
+            android:onClick="btnTopOnclick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rec."
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_rec_black"
+            android:drawablePadding="-20dp"
+            android:backgroundTint="#fff"
+            android:padding="18.5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0F4A40">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#0F4A40"
+            android:text="Sign Out"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+</LinearLayout>

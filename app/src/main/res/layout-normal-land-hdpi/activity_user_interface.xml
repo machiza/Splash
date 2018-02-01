@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mz.co.malambe.splash.User_Interface"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/dp_user_interface">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="#0F0F0F"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Musicas"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_sound_black"
+                android:drawablePadding="-20dp"
+                android:backgroundTint="#fff"
+                android:padding="16dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Album's"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_album_black"
+                android:drawablePadding="-20dp"
+                android:backgroundTint="#fff"
+                android:padding="16dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Videos"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_video_library_black_24dp"
+                android:drawablePadding="-20dp"
+                android:backgroundTint="#fff"
+                android:padding="16dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Top 10"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_top100_black"
+                android:drawablePadding="-20dp"
+                android:backgroundTint="#fff"
+                android:padding="16dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rec."
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_rec_black"
+                android:drawablePadding="-20dp"
+                android:backgroundTint="#fff"
+                android:padding="16dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
